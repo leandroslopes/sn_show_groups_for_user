@@ -15,7 +15,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 
     var userSysId = g_form.getValue('choose_a_user');
 	
-    var glideAjax = new GlideAjax('MyWidgetsGroups');
+    var glideAjax = new GlideAjax('Groups');
     glideAjax.addParam('sysparm_name', 'listString');
     glideAjax.addParam('sysparm_user_sys_id', userSysId.toString());
     glideAjax.getXML(GroupsParse);
