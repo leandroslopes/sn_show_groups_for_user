@@ -1,6 +1,4 @@
-# sn_show_groups_for_user
-
-Show Groups For User - ServiceNow
+# Show Groups For User - ServiceNow
 
 Hello developers!
 
